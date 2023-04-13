@@ -177,7 +177,15 @@ a {
         height: 300px;
     }
     
+    .section-reason {
+        padding: 30px;
+    }
+    
     .services {
         padding: 20px;
+    }
+    
+    .heading {
+        font-size: 25px;
     }
 }
