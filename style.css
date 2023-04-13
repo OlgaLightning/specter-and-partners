@@ -176,4 +176,8 @@ a {
         width: 300px;
         height: 300px;
     }
+    
+    .services {
+        padding: 20px;
+    }
 }
