@@ -182,7 +182,11 @@ a {
     }
     
     .services {
-        padding: 20px;
+        padding: 30px;
+    }
+
+    .img-services {
+        width: 450px;
     }
     
     .heading {
