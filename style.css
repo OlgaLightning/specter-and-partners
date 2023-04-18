@@ -60,6 +60,7 @@ button {
     background-color: #1e313e;
     color: #fff;
     padding: 80px 30px;
+    flex-wrap: wrap;
 }
 
 .block-reason {
@@ -137,7 +138,7 @@ a {
     }
 
     .section-reason {
-        flex-direction: column;
+        padding: 0;
     }
 
     .block-reason {
@@ -156,25 +157,15 @@ a {
         width: 200px;
     }
 
-    .map {
-        justify-content: center;
-    }
-
-    #gmap_canvas {
-        width: 600px;
-        height: 600px;
+    div.gmap_canvas, div.mapouter, iframe {
+        width: 100%;
     }
 }
 
 @media all and (max-width: 500px) {
 
-    .map {
-        justify-content: flex-end;
-    }
-
-    #gmap_canvas {
-        width: 300px;
-        height: 300px;
+    img {
+        width: 100%;
     }
     
     .section-reason {
